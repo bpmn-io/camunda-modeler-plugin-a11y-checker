@@ -1,0 +1,39 @@
+{
+  "name": "camunda-modeler-plugin-a11y-checker",
+  "version": "0.1.0",
+  "description": "Camunda Modeler plugin to verify accessibility",
+  "main": "index.js",
+  "scripts": {
+    "all": "npm run lint && npm run build",
+    "lint": "eslint",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bpmn-io/camunda-modeler-plugin-a11y-checker.git"
+  },
+  "keywords": [
+    "camunda",
+    "modeler",
+    "a11y",
+    "accessibility"
+  ],
+  "author": {
+    "name": "Maciej Barelkowski",
+    "url": "https://github.com/barmac"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bpmn-io/camunda-modeler-plugin-a11y-checker/issues"
+  },
+  "homepage": "https://github.com/bpmn-io/camunda-modeler-plugin-a11y-checker#readme",
+  "devDependencies": {
+    "axe-core": "^4.9.1",
+    "camunda-modeler-plugin-helpers": "^5.1.0",
+    "debug": "^4.3.5",
+    "eslint": "^8.57.0",
+    "eslint-plugin-bpmn-io": "^1.0.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}

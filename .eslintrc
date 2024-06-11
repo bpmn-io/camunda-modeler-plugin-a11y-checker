@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "plugin:bpmn-io/browser"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "index.js",
+        "webpack.config.js"
+      ],
+      "extends": [
+        "plugin:bpmn-io/node"
+      ]
+    }
+  ]
+}
