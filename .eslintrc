@@ -1,6 +1,7 @@
 {
   "extends": [
-    "plugin:bpmn-io/browser"
+    "plugin:bpmn-io/browser",
+    "plugin:bpmn-io/jsx"
   ],
   "overrides": [
     {
